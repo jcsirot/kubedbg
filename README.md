@@ -1,6 +1,6 @@
 # kubedbg
 
-A simple docker image for troubleshooting kubernetes applications.
+A simple docker image for kubernetes applications troubleshooting.
 
 kubedbg is a debian stable image shipped with useful tools:
 - curl
@@ -13,7 +13,7 @@ kubedbg is a debian stable image shipped with useful tools:
 Just create a pod:
 
 ```
-kubectl run -i --tty my-kubedbg --image=sirot/kubedbg --restart=Never --rm --namespace=xxx
+kubectl run -i --tty my-kubedbg --image=jcsirot/kubedbg --restart=Never --rm --namespace=xxx
 ```
 
 All PR are welcome!
