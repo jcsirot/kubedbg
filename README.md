@@ -6,6 +6,7 @@ kubedbg is a debian stable image shipped with useful tools:
 - curl
 - nslookup
 - nmap
+- traceroute
 - kubectl
 
 ## How to use kubedbg?
